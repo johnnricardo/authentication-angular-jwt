@@ -1,0 +1,37 @@
+
+.box {
+    width: 499px;
+    height: 370px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.144);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: var(--branco);
+}
+
+.box button {
+    width: 423px;
+    height: 60px;
+    
+    color: var(--branco);
+    font-size: 15px;
+    background-color: var(--vermelho);
+    border: none;
+    border-radius: 10px;
+}
+
+.box button:hover{
+    cursor: pointer;
+    background-color: #a08080;
+}
+
+.box span {
+    margin-bottom: 10px;
+    color: var(--vermelho);
+    font-weight: 700;
+    font-size: 15px;
+}
